@@ -1,0 +1,386 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.covid-19 .bd-logo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+	cursor:pointer;
+}
+
+.global-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+
+.bd-live-update-head h1 {
+    position: relative;
+    text-align: center;
+    top: 45px;
+    margin: 0;
+    font-size: 50px;
+    font-weight: 900;
+    color: #72BE44;
+}
+
+.bd-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+.scrolltop img{
+	position:fixed;
+	right:20px;
+	bottom:20px;
+	width:60px;
+	height:70px;
+	cursor:pointer;
+	z-index:5;
+}
+.india-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+
+.pak-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+
+.sri-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+
+.afg-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+
+.nepal-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+
+.vhutan-live-update-head h2 {
+    position: relative;
+    text-align: center;
+    top: 100px;
+    margin: 0;
+    font-size: 40px;
+    color: #72BE44;
+}
+
+.live-update-box {
+    position: relative;
+    width: 350px;
+    height: 200px;
+	cursor:pointer;
+}
+
+.effected {
+    margin: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: #E6F6F5;
+	
+}
+
+.deaths {
+    margin: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: #FDE8E9;
+}
+
+.recovered {
+    margin: 10px;
+    border-radius: 10px;
+    border-radius: 10px;
+    background: #E8F3D9;
+}
+
+.update-box-wrap {
+    position: absolute;
+    left: 50px;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+}
+
+.newcofirm-wrap {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #00A79D;
+}
+
+.death-wrap {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #ED1C24;
+}
+
+.recovered-wrap {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #8DC63F;
+}
+
+.update-box-wrap .new-confirm-head {
+    position: absolute;
+    left: 80px;
+    top: 5px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.update-box-wrap .new-death-head {
+    position: absolute;
+    left: 95px;
+    top: 5px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.update-box-wrap .new-recovered-head {
+    position: absolute;
+    left: 100px;
+    top: 5px;
+    margin: 0;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.live-update-24hour {
+    position: absolute;
+    margin: 0;
+}
+
+.live-update-total {
+    position: absolute;
+    margin: 0;
+}
+
+.live-update-24hour .newconfirm-live24-line {
+    position: relative;
+    top: 120px;
+    width: 150px;
+    height: 2px;
+    background: #00A79D;
+}
+
+.live-update-total .newconfirm-total-line {
+    position: relative;
+    top: 120px;
+    left: 200px;
+    width: 150px;
+    height: 2px;
+    background: #00A79D;
+}
+
+.live-update-24hour .death-live24-line {
+    position: relative;
+    top: 120px;
+    width: 150px;
+    height: 2px;
+    background: #ED1C24;
+}
+
+.live-update-total .death-total-line {
+    position: relative;
+    top: 120px;
+    left: 200px;
+    width: 150px;
+    height: 2px;
+    background: #ED1C24;
+}
+
+.live-update-24hour .recovered-live24-line {
+    position: relative;
+    top: 120px;
+    width: 150px;
+    height: 2px;
+    background: #8DC63F;
+}
+
+.live-update-total .recovered-total-line {
+    position: relative;
+    top: 120px;
+    left: 200px;
+    width: 150px;
+    height: 2px;
+    background: #8DC63F;
+}
+
+.live-update-24hour h3 {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.live-update-total h3 {
+    position: absolute;
+    top: 80px;
+    left: 255px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.newconfirm-live-update-result {
+    position: relative;
+    top: 130px;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.newconfirm-live-total-update-result {
+    position: relative;
+    left: 200px;
+    top: 130px;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.death-live-update-result {
+    position: relative;
+    top: 130px;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.death-live-total-update-result {
+    position: relative;
+    left: 200px;
+    top: 130px;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.recovered-live-update-result {
+    position: relative;
+    top: 130px;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.recovered-live-total-update-result {
+    position: relative;
+    left: 200px;
+    top: 130px;
+    font-size: 18px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.covid-global-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.covid-bd-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 170px;
+}
+
+.covid-india-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 170px;
+}
+
+.covid-pak-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 170px;
+}
+
+.covid-sri-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 170px;
+}
+
+.covid-afg-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 170px;
+}
+
+.covid-nepal-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 170px;
+}
+
+.covid-vhutan-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 170px;
+}
