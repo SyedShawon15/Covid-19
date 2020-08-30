@@ -113,7 +113,7 @@
         text-align: center;
     }
 }
-@media only screen and (min-width:360px) and (max-width:375px){
+@media only screen and (min-width:370px) and (max-width:375px){
 	.global-live-update-head h2 {
         font-size: 35px;
     }
