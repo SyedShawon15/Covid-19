@@ -113,6 +113,119 @@
         text-align: center;
     }
 }
+@media only screen and (min-width:360px) and (max-width:375px){
+	.global-live-update-head h2 {
+        font-size: 35px;
+    }
+    .bd-live-update-head h1 {
+        font-size: 40px;
+    }
+    .bd-live-update-head h2 {
+        font-size: 35px;
+    }
+    .india-live-update-head h2 {
+        font-size: 35px;
+    }
+    .pak-live-update-head h2 {
+        font-size: 35px;
+    }
+    .sri-live-update-head h2 {
+        font-size: 35px;
+    }
+    .afg-live-update-head h2 {
+        font-size: 35px;
+    }
+    .nepal-live-update-head h2 {
+        font-size: 35px;
+    }
+    .vhutan-live-update-head h2 {
+        font-size: 35px;
+    }
+	.scrolltop img{
+		width:15px;
+		height:30px;
+		right:8px;
+	}
+    .live-update-box {
+        left: 0;
+    }
+    .update-box-wrap {
+        width: 200px;
+        height: 40px;
+        left: 55px;
+    }
+    .live-update-total h3 {
+        left: 235px;
+    }
+    .live-update-24hour .newconfirm-live24-line {
+        left: 0;
+        width: 140px;
+        height: 2px;
+    }
+    .live-update-total .newconfirm-total-line {
+        left: 185px;
+        width: 140px;
+        height: 2px;
+    }
+    .live-update-24hour .death-live24-line {
+        left: 0;
+        width: 140px;
+        height: 2px;
+    }
+    .live-update-total .death-total-line {
+        left: 185px;
+        width: 140px;
+        height: 2px;
+    }
+    .live-update-24hour .recovered-live24-line {
+        left: 0;
+        width: 140px;
+        height: 2px;
+    }
+    .live-update-total .recovered-total-line {
+        left: 185px;
+        width: 140px;
+        height: 2px;
+    }
+    .update-box-wrap .new-confirm-head {
+        top: 3px;
+        left: 60px;
+        font-size: 22px;
+    }
+    .update-box-wrap .new-death-head {
+        top: 3px;
+        left: 75px;
+        font-size: 22px;
+    }
+    .update-box-wrap .new-recovered-head {
+        top: 3px;
+        left: 80px;
+        font-size: 22px;
+    }
+    .newconfirm-live-update-result {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+    .newconfirm-live-total-update-result {
+        position: absolute;
+        left: 185px;
+        width: 100%;
+        text-align: center;
+    }
+    .death-live-total-update-result {
+        position: absolute;
+        left: 185px;
+        width: 100%;
+        text-align: center;
+    }
+    .recovered-live-total-update-result {
+        position: absolute;
+        left: 185px;
+        width: 100%;
+        text-align: center;
+    }
+}
 @media only screen and (min-width:360px) and (max-width:768px){
 	.scrolltop img{
 		width:15px;
